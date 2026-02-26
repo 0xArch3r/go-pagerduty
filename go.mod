@@ -1,4 +1,4 @@
-module github.com/PagerDuty/go-pagerduty
+module github.com/0xArch3r/go-pagerduty
 
 go 1.19
 
