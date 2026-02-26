@@ -89,6 +89,9 @@ type AnalyticsData struct {
 	TotalSnoozedSeconds            int     `json:"total_snoozed_seconds,omitempty"`
 	TotalEngagedSeconds            int     `json:"total_engaged_seconds,omitempty"`
 	TotalIncidentCount             int     `json:"total_incident_count,omitempty"`
+	TotalInterruptions             int     `json:"total_interruptions,omitempty"`
+	TotalNotifications             int     `json:"total_notifications,omitempty"`
+	TotalIncidentAckCount          int     `json:"total_incidents_acknowledged,omitempty"`
 	UpTimePct                      float64 `json:"up_time_pct,omitempty"`
 	UserDefinedEffortSeconds       int     `json:"user_defined_effort_seconds,omitempty"`
 	RangeStart                     string  `json:"range_start,omitempty"`
